@@ -1,0 +1,2 @@
+# GitHubApi567
+You should write a function that will take as input a GitHub user ID.  The output from the function will be a list of the names of the repositories that the user has, along with the number of commits that are in each of the listed repositories.   So, for example, if user John567 has 2 repositories named "Triangle567" and "Square567" each with some number of commits, then the function might output :  Repo: Triangle567 Number of commits: 10 Repo: Square567 Number of commits: 27
