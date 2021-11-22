@@ -26,14 +26,14 @@ def numberReposandCommits(userID):
         commits = len(req2.json())
         repositories.append({"Repo":REPO["name"], "Number of commits": commits})
         print("Repo: " + REPO["name"] + " Number of commits: " + str(commits))
-        #if increment == 5: break
+        
 
     userData = {
         "id": userID,
         "requestStatus": req.status_code,
         "numberOfRepos": increment,
         "status": repositories
-    } 
+    }
 
     return userData
 
@@ -41,3 +41,4 @@ def numberReposandCommits(userID):
 user = "richkempinski"
 #user = "adiawara"
 numberReposandCommits(user)
+
