@@ -7,33 +7,42 @@ w3.org/Protocols/rfc2616/rfc2616-sec10.html#:~:text=2%20201%20Created,by%20a%20L
 """
 
 import unittest
-
+import interface
+from interface import*
 from interface import numberReposandCommits
 
 class TestGithubApi(unittest.TestCase):
     # Type of function selected by a Developer in a Tester mind
 
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 100 continue")["requestStatus"],100)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 101 Switching Protocols")["requestStatus"],101)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 200 OK")["requestStatus"],200)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 202 Accepted")["requestStatus"],202)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 302 Found")["requestStatus"],302)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 304 Not Modified")["requestStatus"],304)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 400 Bad Request")["requestStatus"],400)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 404 Not Found")["requestStatus"],404)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 500 Internal Server Error")["requestStatus"],500)
-    def test_requestStatus(self): 
-        self.assertEqual(numberReposandCommits("checkOnStatusCode 503 Service Unavailable")["requestStatus"],503)
-
+    def test_requestStatus(self):
+        try:
+            userDatatest = numberReposandCommits(user)
+            self.assertEqual(userDatatest["requestStatus"],200)
+        except:
+            print("Test Failed")
+        else:
+            print("Test succeed")
+    
+    def test_On_numberOfRepositories(self): 
+        try:
+             userDatatest = numberReposandCommits(user)
+             self.assertEqual(userDatatest["numberOfRepos"],9)
+        except:
+            print("Test Failed")
+        else:
+            print("Test succeed")
+    
+    def test_userID(self):
+        try:
+             userDatatest = numberReposandCommits(user)
+             self.assertEqual(userDatatest["id"],"richkempinski")
+        except:
+            print("Test Failed")
+        else:
+            print("Test succeed")
+    
 if __name__ == '__main__':
     print('       unit tests  ....  ')
     unittest.main(exit=False)
+
+
