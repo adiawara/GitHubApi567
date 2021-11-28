@@ -38,5 +38,4 @@ Submit the GitHub URL of the repository containing your code (should be the same
 
 3. the build status will be success
 
-[![build status of master](https://travis-
-ci.org/adiawara /HW05a_Mocking.svg?branch=master)](https://travis- ci.org/adiawara/HW05a_Mocking)![image](https://user-images.githubusercontent.com/22464380/143682884-6f0082f3-eb77-4290-8a8e-b62777e87835.png)
+[![build status of master](https://travis-ci.org/adiawara /HW05a_Mocking.svg?branch=master)](https://travis-ci.org/adiawara/HW05a_Mocking)![image](https://user-images.githubusercontent.com/22464380/143682884-6f0082f3-eb77-4290-8a8e-b62777e87835.png)
