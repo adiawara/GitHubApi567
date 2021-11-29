@@ -93,6 +93,6 @@ Your grade for this part will be on having a complete program that meets the req
 
 WARNING:   If you make too many API requests of GitHub then you may reach a limit and then GitHub will start to give errors.   You can only perform so many tests of GitHub APIs within some period of time, so realize that if your tests are passing fine and then all of a sudden they start to fail, then it may be because you have exceeded the limits on GitHub.   You will need to stop testing and wait for a period of time before GitHub will allow further requests.
   
-  [![build status of master](https://travis-
-ci.org/adiawara/GitHubApi567.svg?branch=master)](https://travis-ci.org/adiawara/GitHubApi567) 
+  [![build status of main](https://travis-
+ci.org/adiawara/GitHubApi567.svg?branch=main)](https://travis-ci.org/adiawara/GitHubApi567) 
 ![image](https://user-images.githubusercontent.com/22464380/142713270-7bfaab59-667e-4bdb-a735-c9df5e896d00.png)
