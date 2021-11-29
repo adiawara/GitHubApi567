@@ -1,3 +1,5 @@
+[![build status of main](https://travis-ci.org/adiwara/GitHubApi567.svg?branch=HW05a_Mocking)](https://travis-ci.org/adiwara/GitHubApi567)
+
 Developing with the Perspective of the Tester in mind
 Background:
 This assignment will require that you write code to interface with an external REST-based APIs.   We could have used almost any external APIs, but for this assignment we chose GitHub because many of its APIs are public and do not require any authorization or API Keys.   This simplifies both the use and setup.
@@ -93,6 +95,3 @@ Your grade for this part will be on having a complete program that meets the req
 
 WARNING:   If you make too many API requests of GitHub then you may reach a limit and then GitHub will start to give errors.   You can only perform so many tests of GitHub APIs within some period of time, so realize that if your tests are passing fine and then all of a sudden they start to fail, then it may be because you have exceeded the limits on GitHub.   You will need to stop testing and wait for a period of time before GitHub will allow further requests.
   
-  [![build status of master](https://travis-
-ci.org/adiawara/GitHubApi567.svg?branch=master)](https://travis-ci.org/adiawara/GitHubApi567) 
-![image](https://user-images.githubusercontent.com/22464380/142713270-7bfaab59-667e-4bdb-a735-c9df5e896d00.png)
