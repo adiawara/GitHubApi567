@@ -1,3 +1,6 @@
+[![build status of master](https://travis-
+ci.org/adiawara/GitHubApi567.svg?branch=main)](https://travis-ci.org/adiawara/GitHubApi567) 
+
 Developing with the Perspective of the Tester in mind
 Background:
 This assignment will require that you write code to interface with an external REST-based APIs.   We could have used almost any external APIs, but for this assignment we chose GitHub because many of its APIs are public and do not require any authorization or API Keys.   This simplifies both the use and setup.
