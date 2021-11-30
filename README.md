@@ -1,3 +1,8 @@
+[![build status of main](https://travis-ci.org/adiawara/HW05a_Mocking.svg?branch=main)](https://travis-ci.org/adiawara/HW05a_Mocking)
+![image](https://user-images.githubusercontent.com/22464380/143892410-7b7fc001-9571-4607-9819-b4610381f78e.png)
+
+
+
 Mock the GitHub API
 In last week's assignment HW 04a you may have encountered problems when testing your code in Travis-CI given that your tests were highly dependent on the GitHub APIs.   Those APIs would start to return errors if you exceeded a threshold on use, or those APIs would return different results if you make a change to your repos.    Remember that one of the key concepts behind unit-tests was that if you don't change your program then the unit-tests should behave consistently.  Unfortunately that is not the case so far. 
 In this assignment you will use a mocking package to "mock" your program's external dependence on GitHub, so that you can guarantee that your unit tests will run consistently ever time you run them, no matter how many times you run them, and no matter what changes you make to your repos.
@@ -12,6 +17,4 @@ Submit the GitHub URL of the repository containing your code (should be the same
 1. all of your changes for this assignment will be on the branch "HW05a_Mocking"
 2. the README file will contain a badge that links to the build status of your code on the branch "HW05a_Mocking" running in Travis-CI.
 3. the build status will be success
-[![build status of main](https://travis-ci.org/adiawara/HW05a_Mocking.svg?branch=main)](https://travis-ci.org/adiawara/HW05a_Mocking)
-![image](https://user-images.githubusercontent.com/22464380/143892410-7b7fc001-9571-4607-9819-b4610381f78e.png)
 
