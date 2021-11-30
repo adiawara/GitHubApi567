@@ -1,3 +1,10 @@
+
+[![build status of main](https://travis-ci.org/adiawara/GitHubApi.svg?branch=main)](https://travis-ci.org/adiawara/GitHubApi)
+![image](https://user-images.githubusercontent.com/22464380/143890616-278d06b6-e7d8-449e-b789-a42e54fac581.png)
+
+
+
+
 Developing with the Perspective of the Tester in mind Background: This assignment will require that you write code to interface with an external REST-based APIs. We could have used almost any external APIs, but for this assignment we chose GitHub because many of its APIs are public and do not require any authorization or API Keys. This simplifies both the use and setup.
 For this assignment imagine that you have been asked to develop a function that will interface with GitHub in order to extract and present useful information to your user. The function will communicate using the RESTful services APIs provided by GitHub. The GitHub APIs will allow you to query for information about users, repositories, etc... which can be retrieved using the function, and then be displayed in the application.
 What should make this assignment different from other programming assignments is in how you will approach it. You should approach this assignment as a developer who more than anything else has the perspective of the tester in the front of your mind.
@@ -37,5 +44,3 @@ Deliverables: You have 2 deliverables for this assignment:
 You should link this application to Travis-ci to make sure that the code builds. The README should contain a badge that indicates that the build is successful and that your tests pass, Follow the same pattern as was done in the previous assignment. Your grade for this part will be on having a complete program that meets the requirements and which demonstrates a correct result. 2. Write a description of what you thought about when you were designing the code. What did you think was important to do to make it easy to test the program. What are some of the challenges that you faced when testing this assignment.
 WARNING: If you make too many API requests of GitHub then you may reach a limit and then GitHub will start to give errors. You can only perform so many tests of GitHub APIs within some period of time, so realize that if your tests are passing fine and then all of a sudden they start to fail, then it may be because you have exceeded the limits on GitHub. You will need to stop testing and wait for a period of time before GitHub will allow further requests.
 
-[![build status of main](https://travis-ci.org/adiawara/GitHubApi.svg?branch=main)](https://travis-ci.org/adiawara/GitHubApi)
-![image](https://user-images.githubusercontent.com/22464380/143890616-278d06b6-e7d8-449e-b789-a42e54fac581.png)
